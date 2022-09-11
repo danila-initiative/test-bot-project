@@ -12,9 +12,12 @@ API_TOKEN = 'BOT TOKEN HERE'
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
+
+
 # Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
+
 
 
 @dp.message_handler(commands=['start', 'help'])
@@ -42,11 +45,13 @@ async def cats(message: types.Message):
 
 
 @dp.message_handler()
-async def echo(message: types.Message):
+async def echo_asdfasf_segfsdg_sdfsdgsdgsd_sdfsdfgsd(message: types.Message):
     # old style:
     # await bot.send_message(message.chat.id, message.text)
 
+
     await message.answer(message.text)
+
 
 
 if __name__ == '__main__':
