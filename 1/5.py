@@ -45,7 +45,7 @@ async def cats(message: types.Message):
 
 
 @dp.message_handler()
-async def echo_asdfasf_segfsdg_sdfsdgsdgsd_sdfsdfgsd(message: types.Message):
+async def echo_asdfasf_segfsdg_sdfsdgsdgsd_sdfsdfgsd_sdfsdf_sdfsdgsdgsdgsdgsdg(message: types.Message):
     # old style:
     # await bot.send_message(message.chat.id, message.text)
 
